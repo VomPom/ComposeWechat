@@ -143,7 +143,7 @@ fun HomeScreen() {
                     exit = fadeOut(),
                 ) {
                     NavigationBar(
-                        modifier = Modifier.height(60.dp),
+                        modifier = Modifier.heightIn(60.dp),
                         containerColor = Color(
                             ContextCompat.getColor(
                                 context,
